@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #dff3ff,
+        #cbd2d9,
+        #e8f4ff
+    );
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header h3{
+    color: rgb(239, 239, 244);
+    font-size: 25px;
+}
+
+.maindiv{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.subdiv1{
+    width: 80%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+     
+    border-radius: 10px;
+}
+
+.subdiv1 h2{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.subdiv2{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    background-color: rgb(244, 247, 248);
+    display: flex;
+    flex-direction: column;
+}
+
+.subdiv2 h2{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+     
+}
+
+.subdiv22{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.subdiv22 div{
+    width: 40%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.subdiv22 div:hover{
+    transform : translateY(-5px);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.20);
+}
+
+.subdiv22 div h4{
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.subdiv22 div p{
+    color: grey;
+}
+
+.app-container {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.10);
+}
+
+.qr-code-image{
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: #3498db;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.app-container div input[type = "text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px #3498db solid ;
+    border-radius: 5px;
+}
+
+.app-container div button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-button{
+    background-color: blue;
+}
+
+.generate-button:hover{
+    background-color: rgb(15, 15, 104);
+}
+
+.generate-button:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.download-button{
+    background-color: #27ae60;
+    margin-left: 20px;
+}
+
+.download-button:hover{
+    background-color: #126b37;
+}
+
+.app-container h1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3498db;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+.app-container p{
+
+    margin-top: 30px;
+}
+
+
+
+.subdiv4{
+    width: 80%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subdiv4 h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uses-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.uses-container div{
+    width: 40%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+ 
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p{
+    color: rgb(239, 239, 244);
+}
