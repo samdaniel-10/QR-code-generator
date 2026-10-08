@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-//import collegeImg from "../assets/Images/college_image_1.jpg";
-//import CollegeImg2 from "../assets/Images/college_image_2.jpg"; 
-//import YoutubeQR from "../assets/Images/Youtube_QR_code_image.png"
-// for <img> usage because React needs the image path in a variable.
 import '../assets/CSS/Project/QR_code.css'
 
 
