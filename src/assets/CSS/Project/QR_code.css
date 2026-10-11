@@ -243,3 +243,297 @@ footer{
 footer p{
     color: rgb(239, 239, 244);
 }
+
+
+ 
+
+@media (max-width: 1024px) {
+
+    header {
+        height: 70px;
+    }
+
+    header h3 {
+        font-size: 23px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .maindiv {
+        margin-top: 85px;
+    }
+
+    .subdiv1,
+    .subdiv4 {
+        width: 90%;
+    }
+
+    .subdiv22 div,
+    .uses-container div {
+        width: 45%;
+        padding: 25px;
+    }
+
+    .app-container {
+        width: 65%;
+        margin: 25px 0;
+    }
+}
+
+ 
+
+@media (max-width: 768px) {
+
+    header {
+        height: 65px;
+        padding: 10px;
+    }
+
+    header h3 {
+        font-size: 21px;
+    }
+
+    .maindiv {
+        margin-top: 75px;
+        padding: 0 10px;
+    }
+
+    .subdiv1,
+    .subdiv4 {
+        width: 100%;
+        padding: 20px 15px;
+        margin: 15px 0;
+    }
+
+    .subdiv1 h2,
+    .subdiv2 h2,
+    .subdiv4 h2 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .subdiv2 {
+        width: 100%;
+        padding: 20px 15px;
+        margin: 15px 0;
+    }
+
+    .subdiv22 {
+        gap: 15px;
+    }
+
+    .subdiv22 div,
+    .uses-container div {
+        width: 100%;
+        padding: 22px;
+    }
+
+    .subdiv22 div h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .subdiv22 div p,
+    .uses-container div p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .app-container {
+        width: 85%;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .app-container h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .app-container div input[type="text"] {
+        font-size: 15px;
+    }
+
+    .app-container div button {
+        font-size: 15px;
+        padding: 12px 16px;
+    }
+
+    .download-button {
+        margin-left: 10px;
+    }
+
+    .qr-code-image {
+        max-width: 100%;
+    }
+
+    .uses-container {
+        gap: 15px;
+    }
+
+    footer {
+        height: auto;
+        min-height: 70px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+
+ 
+
+@media (max-width: 480px) {
+
+    header {
+        height: 60px;
+    }
+
+    header h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .maindiv {
+        margin-top: 65px;
+        padding: 0 8px;
+    }
+
+    .subdiv1,
+    .subdiv4 {
+        padding: 15px 8px;
+    }
+
+    .subdiv1 h2,
+    .subdiv2 h2,
+    .subdiv4 h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .subdiv2 {
+        padding: 18px 10px;
+    }
+
+    .subdiv22,
+    .uses-container {
+        gap: 15px;
+    }
+
+    .subdiv22 div,
+    .uses-container div {
+        width: 100%;
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    .subdiv22 div h4 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .subdiv22 div p,
+    .uses-container div p {
+        font-size: 13px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    .app-container {
+        width: 100%;
+        padding: 18px 12px;
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    .app-container h1 {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 8px 0;
+    }
+
+    .input-label {
+        font-size: 14px;
+    }
+
+    .app-container div input[type="text"] {
+        width: 100%;
+        padding: 11px;
+        font-size: 14px;
+    }
+
+    .app-container div button {
+        font-size: 13px;
+        padding: 11px 12px;
+        max-width: 100%;
+    }
+
+    .generate-button {
+        margin-bottom: 10px;
+    }
+
+    .download-button {
+        margin-left: 0;
+    }
+
+    .qr-code-image {
+        max-width: 100%;
+        height: auto;
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+
+    .app-container p {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    footer {
+        min-height: 60px;
+        padding: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    header h3 {
+        font-size: 16px;
+    }
+
+    .subdiv1 h2,
+    .subdiv2 h2,
+    .subdiv4 h2 {
+        font-size: 18px;
+    }
+
+    .subdiv22 div,
+    .uses-container div {
+        padding: 14px;
+    }
+
+    .app-container {
+        padding: 15px 10px;
+    }
+
+    .app-container div button {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .app-container h1 {
+        font-size: 15px;
+    }
+}
